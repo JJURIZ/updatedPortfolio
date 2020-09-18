@@ -1,0 +1,38 @@
+.header {
+    height: 40vh;
+    position: relative;
+    background-image: linear-gradient(yellow, orangered);
+
+    //Container for Header Content
+    &__content {
+        position: absolute;
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+    //h1 header
+    &__title {
+        color: white;
+        position: absolute;
+        width: 20rem;
+        background-image: linear-gradient(black, blue );
+    }
+
+    //text in span element
+    &__text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 40%;
+        left: 50%;
+        color: white;
+
+        &--main {
+            display: block;
+        }
+
+        &--sub {
+            display: block;
+        }
+    }
+    
+}
+
