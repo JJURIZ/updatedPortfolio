@@ -1,0 +1,22 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom,
+    rgba(#00B6C7, 0.801),
+    rgba(#624120,0.801)),
+    url(../../assets/images/unsplash-header-sails-and-stars.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &-primary--main {
+        color: $color-white;
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}

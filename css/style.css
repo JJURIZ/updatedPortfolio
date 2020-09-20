@@ -13,6 +13,63 @@ body {
   font-weight: 400;
   line-height: 1.7; }
 
+.header-primary {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 3rem; }
+  .header-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3rem; }
+  .header-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1.5rem; }
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-large {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
+.u-margin-top-medium {
+  margin-top: 4rem !important; }
+
+.u-margin-top-large {
+  margin-top: 8rem !important; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(0, 182, 199, 0.801), rgba(98, 65, 32, 0.801)), url(../../assets/images/unsplash-header-sails-and-stars.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+  .header-primary--main {
+    color: #fff; }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
 .navigation__nav {
   height: 5rem;
   width: 100%;
